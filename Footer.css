@@ -1,0 +1,34 @@
+.footer-container{
+    position: relative;
+}
+.footer-container>hr{
+    border: 1px solid var(--lightgray);
+}
+.footer{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+}
+.social-link>img{
+        width: 7rem;
+        height: 4rem;
+        cursor: pointer;
+        
+}
+.logo-f>img{
+    width: 16rem;
+}
+@media screen and (max-width:768px){
+    .footer-container{
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+    .social-link>img{
+        width: 4rem;
+        justify-content: space-between;
+        padding: 20px;
+    }
+}

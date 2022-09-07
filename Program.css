@@ -1,0 +1,81 @@
+.programs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+.program-header{
+    display: flex;
+    gap: 5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.pushups{
+    width: 500px;
+    height: 200px;
+    box-shadow: 10px
+}
+.pushup{
+    display: flex ;
+    flex-direction: row;
+    
+
+}
+.button1{
+    display: flex;   
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 2rem;
+    margin-top: 20px;
+}
+.btn1{
+    width: 365px;
+    height: 40px;
+    gap: 20px;
+    background:var(--plancard);
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 1px 100px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background: white;
+    color: var(--orange);
+    border-radius: 100px 1px;
+}
+.button1>button:nth-of-type(1){
+    margin-left: 2px;
+
+}
+.button1>button:nth-of-type(2){
+    margin-left: 12px;
+}
+.button1>button:nth-of-type(3){
+    margin-left: 10px;
+}
+@media screen and (max-width:768px) 
+{
+    .program-header{
+        flex-direction: column;
+        gap: 1rem;
+        font-size: x-large;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .pushup{
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+    .button1{
+        flex-direction: column;
+        top: 20px;
+        align-items: center;
+    }
+}

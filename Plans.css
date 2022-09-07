@@ -1,0 +1,113 @@
+.plans-detail>div:nth-child(1){
+    color: rgb(97, 4, 247);
+    width: 350px;
+    height: 400px;
+    
+    background:var(--blackss);
+}
+.plans-detail>div:nth-child(2){
+    color: rgb(235, 10, 10);
+    width: 350px;
+    height: 400px;
+    background:var(--blackss);
+}
+.plans-detail>div:nth-child(3){
+    color: rgb(56, 247, 8);
+    width: 350px;
+    height: 400px;
+    background:var(--blackss);
+}
+.plans-detail{
+    display: flex;   
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 2rem;
+    margin-top: 20px;
+    margin: 30px;
+    text-transform: uppercase;
+   
+    
+}
+.plans-detail>div:hover{
+        background:var(--plancard);
+        
+}
+.detail-plan li{
+    list-style: none;
+    justify-content: left;
+    padding: 4px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.span22{
+    text-align: center;
+}
+  .detail-plan>li:before {
+    content: '✓';
+  }
+  .plan-btn{
+    display: flex;
+    width: 262px;
+    height: 35px;
+    margin: 39px;
+    border: none;
+    align-items: center;
+    right: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    justify-content: center;
+    text-transform: uppercase;
+    background:var(--plancard);
+  }
+  .plan-btn:hover{
+    cursor: pointer;
+  }
+  .plan-btn1{
+    display: flex;
+    width: 262px;
+    height: 35px;
+    margin: 2px;
+    margin-top: 35px;
+    border: none;
+    align-items: center;
+    right: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    justify-content: center;
+    text-transform: uppercase;
+    background:var(--plancard);
+  }
+  .plan-btn:hover{
+    background: var(--blackss);
+    color: white;
+  }
+  .plan-btn1:hover{
+    background: var(--blackss);
+    color: white;
+  }
+  .plan-blur-1{
+    width: 32rem;
+    height: 23rem;
+    left: 0rem;
+  }
+  .plan-blur-2{
+    width: 32rem;
+    height: 23rem;
+    top: 125rem;
+    right: 1rem;
+  }
+  @media screen and (max-width:768px){
+    .plans-container{
+      flex-direction: column;
+    }
+    .plans-detail{
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+
+
+  
